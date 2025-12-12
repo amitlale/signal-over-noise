@@ -1,0 +1,29 @@
+baseURL = 'https://blog.amitlale.dev/' 
+languageCode = 'en-us' 
+title = 'Signal Over Noise' 
+theme = 'PaperMod'  
+[params]   
+description = "Cutting through tech hype with two decades of perspective"   
+author = "Amit Lale"      
+# PaperMod specific settings   
+ShowReadingTime = true   
+ShowShareButtons = true   
+ShowPostNavLinks = true   
+ShowBreadCrumbs = true   
+ShowCodeCopyButtons = true   
+ShowRssButtonInSectionTermList = true
+[params.homeInfoParams]     
+Title = "Signal Over Noise"     
+Content = "Real-world insights on AI, code, and innovation—minus the buzzwords"  
+[[menu.main]]   
+name = "Archive"   
+url = "/archives/"   
+weight = 10  
+[[menu.main]]   
+name = "Tags"   
+url = "/tags/"   
+weight = 20  
+[[menu.main]]   
+name = "About"   
+url = "/about/"   
+weight = 30
